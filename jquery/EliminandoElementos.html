@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eliminando elementos del Dom</title>
+	<style>
+		.contenedor {
+			background: #ccc;
+			width: 500px;
+			height: 500px;
+		}
+
+		.caja {
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			margin: 15px;
+			background: #0353a4;
+			color: #fff;
+			text-align: center;
+			font-family: Arial;
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>	
+	<div class="contenedor" id="contenedor">
+		<div class="caja">1</div>
+		<div class="caja" id="segunda">2</div>
+		<div class="caja">3</div>
+		<div class="caja">4</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="EliminandoElementos.js"></script>
+</body>
+</html>

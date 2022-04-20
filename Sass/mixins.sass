@@ -1,0 +1,20 @@
+//@mixin colores($fondo, $articulo)
+//	body
+//		background: $fondo
+//	.articulo
+//		background: $articulo
+
+//@include colores(#ff8000, #fff)
+@mixin border-redondeado($pixeles)
+	-webkit-border-radius: $pixeles
+	-moz-border-radius: $pixeles
+	-ms-border-radius: $pixeles
+	-o-border-radius: $pixeles
+	border-radius: $pixeles
+.articulo
+	@include border-redondeado(5px)
+footer
+	@include border-redondeado(15px)
+	// Funciones
+article
+	background: rgba(#ff8000, .5)

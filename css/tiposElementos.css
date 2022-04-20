@@ -1,0 +1,25 @@
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+h1, p, div {
+	background: #f79256;
+	padding: 10px;
+	width: 500px;
+	display: inline-block;
+}
+a {
+	color: #fff;
+	background: #000;
+	display: inline-block;
+	padding: 10px;
+	width: ;
+	height: 50px;
+}
+
+.contenedor {
+	background: #2e294e;
+	height: 200px;
+	width: 800px;
+}
+

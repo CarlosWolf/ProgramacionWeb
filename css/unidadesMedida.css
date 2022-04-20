@@ -1,0 +1,14 @@
+body {
+	font-size:18px;
+}
+p {
+	font-size: 1.125em;
+}
+.contenedor_padre {
+	font-size:16px;
+}
+div {
+	background:blueviolet;
+	width: 12.5rem;
+	height: 12.5rem;
+}

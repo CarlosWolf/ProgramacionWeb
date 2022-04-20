@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LocalStorage</title>
+</head>
+<body>
+	<script type="text/javascript">
+		if (typeof(Storage) !== "undefined"){
+		document.write('Si soporta <br>');
+		localStorage.setItem('nombre', 'Carlos 	Montero');
+		} else {
+		document.write('Tu navegador no soporta Web Sotorage');
+		}
+		//llamamos y eliminamos
+		document.write(localStorage.nombre);
+		localStorage.removeItem('nombre');
+	</script>
+</body>
+</html>

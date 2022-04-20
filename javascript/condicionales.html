@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Condicionales</title>
+</head>
+<body>
+	<script type="text/javascript">			
+// Ejemplo de condicional if:
+		/*
+			if (condicion) {
+				// Instrucciones que se ejecutaran si la condicion es VERDADERA (true).
+			}
+		*/
+
+// Ejemplo de condicion
+		/*var edad = 18;
+		 if (edad >= 18) {
+		 	document.write('Eres mayor de edad');
+		 }
+
+		 if (edad < 18) {
+		 	document.write('Eres menor de edad');
+		 }*/
+
+// Condicional If else
+		 /*if (edad >= 18){
+		 	document.write('Eres mayor de edad');	
+		 } else {
+		 	document.write('Eres menor de edad');
+		 }*/
+
+// Else if
+		/* var pais = 'Mexico';
+		 if (pais == 'Mexico'){
+		 	document.write('Eres mexicano');
+		 } else if (pais == 'Colombia') {
+		 	document.write('Eres colombiano');
+		 } else if (pais == 'España') {
+		 	document.write('Eres español');
+		 } else {
+		 	document.write('No sabemos de donde eres');
+		 }*/
+
+// Switch
+		var pais = 'Mexico';
+		switch (pais) {
+			case 'Mexico':
+				document.write('Eres Mexicano');
+				break;
+			case 'Argentina':
+				document.write('Eres Argentino');
+				break;
+			case 'Peru':
+				document.write('Eres Peruano');
+				break;
+			default:
+				document.write('No sabemos de donde eres');
+				break;
+		}
+
+	</script>
+</body>
+</html>

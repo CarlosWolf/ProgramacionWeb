@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Hurricane-Regular";
+	src:url('fonts/Hurricane-Regular.ttf');
+}
+body{
+	font-family: Hurricane-Regular;
+	font-family: 'Hurricane', cursive;
+}
+h1{
+	font-weight: normal;
+}

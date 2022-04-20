@@ -1,0 +1,25 @@
+/*Eliminar los margenes internos y paddins que agregan los navegadores por defecto*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body { 
+	font-family: Arial;
+	line-height: 22px;
+}
+.caja {
+	background:#0353a4;
+	width:200px;
+	/*height:200px;*/
+
+	margin:20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	border: 4px solid #000;
+	/*padding:20px 10px 5px 0px;*/
+}
+.caja p {
+	background: #eee5e9;
+}

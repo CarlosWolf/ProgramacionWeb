@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Metodos y propiedades para Cadenas de Texto</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//length
+		var nombre = 'Carlos Montero';
+		var numeroCaracteres = nombre.length;
+		console.log(nombre + ' tiene ' + numeroCaracteres + ' caracteres');
+		//substring
+		var nombre = 'Carlos Montero';
+		var segundoNombre = nombre.substring(7, 13);
+		console.log(segundoNombre);
+		//substr
+		var nombre = 'Carlos Montero';
+		var segundoNombre = nombre.substr(7, 2);
+		console.log(segundoNombre);
+		//replace
+		var nombre = 'Carlos Montero';
+		var nuevoNombre = nombre.replace('Carlos', 'WolfTech');
+		console.log(nuevoNombre);
+		//toUpperCase
+		var nombre = 'Carlos Montero';
+		console.log(nombre.toUpperCase());
+		//toLowerCase
+		var nombre = 'Carlos Montero';
+		console.log(nombre.toLowerCase());
+		//indexOf
+		var nombre = 'Carlos Montero';
+		var posicion = nombre.indexOf('o');
+		console.log(posicion);
+		//lastIndexOf
+		var nombre = 'Carlos Montero';
+		var posicion = nombre.lastIndexOf('o');
+		console.log(posicion);
+	</script>
+</body>
+</html>

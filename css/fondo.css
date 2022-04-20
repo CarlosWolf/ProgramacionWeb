@@ -1,0 +1,16 @@
+body{
+	background:#637DDA;
+	background:url('img/reach.jpg');
+	background-repeat:repeat;
+	/*background-size:100%;
+	background-position: 50px 200px;*/
+	background-attachment: scroll;
+	
+}
+/*.fondo{
+	background:url('img/reach.jpg') #000;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width:600px;
+	height:600px;
+}*/

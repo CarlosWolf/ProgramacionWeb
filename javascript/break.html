@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Break y Continue</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var amigos = ['Wolf', 'Chuc', 'Cako', 'Tusa'];
+		// Break nos permite cortar la ejecucion de un ciclo completamente.
+		// Continue nos permite saltarnos a la siguiente ejecucion de un ciclo.
+		for (amigo in amigos) {
+			// document.write(amigos[amigo] + '<br>');
+			// if (amigos[amigo] == 'Chuc'){
+			// 	break;
+			// }
+			if (amigos[amigo] == 'Wolf'){
+				continue;
+			};
+			document.write(amigos[amigo] + '<br>');
+		}
+	</script>
+</body>
+</html>

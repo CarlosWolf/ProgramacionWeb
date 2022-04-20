@@ -1,0 +1,1 @@
+alert("Hola mundo soy java script desde un archivo externo");

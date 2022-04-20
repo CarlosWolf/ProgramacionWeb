@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hoisting</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var espacio = " ";
+		nombre = 'Carlos'
+		document.write(nombre);
+		var nombre;
+		document.write(espacio);
+		//-------------------
+		var nombre2;
+		document.write(nombre2);
+		nombre2 = 'Chucho2'// dara undefined porque no te sube la definicion solo la declaracion de variables HOSTING
+	</script>
+</body>
+</html>

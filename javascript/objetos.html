@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Objetos en Java Script</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*var nombre = 'Carlos';
+		var edad = 21;
+		var pais = 'Mexico';
+
+		var nombreHermano = 'CHUC';
+		var edadHermano = '23';
+		var paisHermano = 'Mexico';
+
+		var nombrePapa = 'Osorio';
+		var edadPapa = '22';
+		var paisPapa = 'Mexico';*/
+		//Convertir lo anterior a objetos
+		var carlos = {
+			nombre: 'Carlos Montero',
+			edad: 21,
+			pais: 'Mexico',
+			// Los metodos son funciones dentro de un objeto
+			bio: function(){
+				return this.nombre + ' tiene ' + this.edad + ' años';
+			}
+		}
+		var chuc = {
+			nombre: 'CHUC',
+			edad: 22,
+			pais: 'España',
+			bio: function(){
+				return this.nombre + ' tiene ' + this.edad + ' años';
+			}
+		}
+
+		document.write(carlos.bio());
+		document.write('<br>');
+		document.write(chuc.pais);
+		//Constructor de objetos ---------------------
+		function persona(nombre, edad, pais){
+		this.nombre = nombre;
+		this.edad = edad;
+		this.pais = pais;
+	}
+
+		var papa = new persona('Carlos', 21, 'Mexico');
+		var amigo = new persona('Tomy', 22, 'JAPON');
+		var hermano = new persona('Johan', 20, 'Mexico');
+
+		document.write(papa.nombre);
+		document.write('<br>');
+		document.write(hermano.edad);
+	</script>
+</body>
+</html>
